@@ -1,0 +1,605 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(220, 252, 252);
+}
+
+.header {
+    height: 34px;
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar {
+    height: 34px;
+    margin-left: 75px;
+    margin-right: 75px;
+    /* border: 1px solid white; */
+    margin-top: 7px;
+    display: flex;
+}
+
+.first {
+    height: 20px;
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-right: auto;
+}
+
+.second {
+    height: 20px;
+    width: 550px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+   
+}
+
+#text1 {
+    margin-left: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    display: inline;
+}
+
+#text2 {
+    margin-left: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    display: inline;
+}
+
+li{
+    color: white;
+    display: inline;
+    font-size: 18px;
+}
+
+#skip {
+    margin-right: 34px;
+}
+
+#screen {
+    margin-right: 34px;
+}
+
+#tt {
+    margin-right: 34px; 
+}
+
+#lang {
+    margin-right: 0px;
+}
+
+
+.sveconddiv {
+    height: 130px;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    height: 130px;
+    /* width: 900px; */
+    margin-left: 75px;
+    margin-right: 75px;
+    /* background-color: aqua; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+
+.items {
+    height: 58px;
+    background-color: #ff8a00;
+    font-weight: 400px;
+    color: white;
+    
+}
+
+.elements {
+    height: 58px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1 {
+    height: 40px;
+    /* background-color: rgb(93, 169, 236); */
+    font-size: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:bold ;
+}
+
+
+.photo {
+    height: 440px;
+    width: 100%;
+    background-color: rgb(33, 233, 26);
+    background-image: url(/images/download.jpeg);
+    background-size: cover;
+}
+
+
+
+.unique {
+    height: 440px;
+    width: 600px;
+    /* background-color: aqua; */
+    margin-left: 75px;
+}
+
+.TEXT {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /* background-color: blue; */
+    font-family: Roboto, sans-serif;
+}
+
+.text1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+
+.text2 {
+    padding-left: 13px;
+    padding-top: 70px;
+    font-size: 40px;
+    color: white; 
+    display: inline;  
+}
+
+
+.text4 {
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;;
+    font-size: 40px;
+    color: white;  
+    display: block; 
+}
+
+.hero {
+    display: flex;
+}
+
+
+.text5 {
+    height: 44px;
+    width: 180px;
+    border: 2px solid white;
+    font-size: 24px;
+    text-align: center;
+    background-color: white;
+    color: #ff8a00;
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.text6 {
+    height: 44px;
+    width: 360px;
+    border: 2px solid white;
+    margin-left: 13px;
+    font-size: 24px;
+    background-color: white;
+    color: #ff8a00;
+    text-align: center;
+    justify-content: center;
+}
+
+.paragraph {
+    height: 80px; 
+    width: 100%;
+    background-color: rgb(18, 18, 90);
+    
+}
+
+.para {
+    /* height: 80px;  */
+    font-family: Roboto, sans-serif;
+    color: white;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    margin-bottom: 20px;  
+} 
+
+h3 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+.newdiv {
+    height: 380px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: Roboto, sans-serif;
+}
+
+.pehla {
+    height: auto;
+    width: 700px;
+    background-color: white;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.dusra {
+    height: auto;
+    width: 700px;
+    background-color: rgb(18, 18, 90);
+    margin-left: 40px;
+    margin-top:  50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+}
+
+
+#about {
+    font-size: 1.4375em;
+    line-height: 38px;
+}
+
+#unique {
+    font-size: 2.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+
+#defination {
+    font-size: 1em;
+    line-height: 25px;
+    font-weight: 400;
+    color: gray;
+    word-spacing: 3px;
+}
+
+
+.dusra {
+    padding: 26px 26px 26px 26px;
+    font-family: Roboto, sans-serif;
+}
+
+#news {
+    color: white;
+    font-size: 1em;
+    display: block;
+    margin-bottom: 16px;
+}
+
+#date {
+    color: #ff8a00;
+    font-size: 1em;
+    line-height: 25px;
+    font-weight: 400;
+    word-spacing: 3px;
+    display: block;
+}
+
+
+#parag {
+    color: white;
+    font-size: 1em;
+    line-height: 25px;
+    font-weight: 400;
+    word-spacing: 3px;
+    display: block;
+}
+
+#date2 {
+    color: #ff8a00;
+    font-size: 1em;
+    line-height: 25px;
+    font-weight: 400;
+    word-spacing: 3px;
+    display: block;
+    margin-top: 16px;
+}
+
+#para2 {
+    color: white;
+    font-size: 1em;
+    line-height: 25px;
+    font-weight: 400;
+    word-spacing: 3px;
+    display: block;
+}
+
+#last {
+    color: white;
+    font-size: 1em;
+    display: block;
+    margin-top: 16px;
+}
+
+.images {
+    height: 380px;
+    width: 100%;
+    background-color: rgb(241, 237, 237);
+    display: flex;
+    font-family: Roboto, sans-serif;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.image1 {
+    height: 380px;
+    width: 700px;
+    background-color: rgb(18, 18, 90);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.know {
+    margin-top:16px;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    word-spacing: 3px;
+}
+
+.random {
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    padding-left: 26px;
+}
+
+.lasttext {
+    height: 40px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-color: #ff8a00;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.find {
+    padding-top: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.nyaa {
+    height:380px;
+    width: 700px;
+    /* background-color: aqua;; */
+    margin-left: 28px;
+    box-sizing: border-box;
+}
+
+.textwastte {
+    display: flex;
+    /* box-sizing: border-box; */
+    padding-top: 10px;
+}
+
+.gallary1 {
+    /* padding-top: 26px; */
+    font-size: 24px;
+    color: #ff8a00;
+}
+
+.gallary2 {
+    /* padding-top: 26px; */
+    padding-left: 20px;
+    font-size: 24px;
+    color: lightslategray;
+}
+
+.gallary3 {
+    /* padding-top: 18px; */
+    padding-left: 150px;
+    /* padding-right: 0px; */
+    font-size: 18px;
+    color: #ff8a00;
+}
+
+
+.picture {
+    padding-top: 10px;
+    background-size: cover;
+}
+
+.forlogos {
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    /* display: flex;
+    justify-content: space-around;   */
+    padding-top: 30px;
+}
+
+#handsome {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.lists {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    font-family: Roboto, sans-serif;
+
+}
+
+.outer {
+    padding-top: 40px;
+    padding-left: 75px;
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.suchi1 {
+    height: 240px;
+    width: 550px;
+    /* background-color: rgb(80, 157, 225); */
+    margin-right: 80px;
+}
+
+.suchi2 {
+    height: 240px;
+    width: 300px;
+    /* background-color: rgb(16, 252, 118); */
+    /* margin-right: 100px; */
+}
+
+.suchi3 {
+    height: 240px;
+    width: 400px;
+    /* background-color: rgb(224, 10, 149); */
+}
+
+#bhai li{
+    display: block;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.dost {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.dusrah2 {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.jindabad li {
+    display: block;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.keyboard {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.listitems li{
+    display: block;
+    line-height: 28px;
+    font-size: 16px;
+    color: yellow;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    font-family: Roboto, sans-serif;
+    padding-left: 75px;
+}
+
+.andruni {
+    display: flex;
+    padding-top: 20px;
+    font-weight: 100px;
+}
+
+.aditya {
+    height: 100px;
+    width: 930px;
+    /* background-color: rgb(37, 183, 14); */
+}
+
+#mai {
+    word-spacing: 8px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.copywriting {
+    padding-top: 20px;
+    word-spacing: 8px;
+    color: white;
+}
+
+.heroine{
+    word-spacing: 8px;
+    color: white;
+}
+
+.social {
+    height: 100px;
+    width: 200px;
+    /* background-color: rgb(245, 158, 9); */
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.copywrite {
+    height: 100px;
+    width: 200px;
+    /* background-color: rgb(219, 20, 83); */
+    margin-left: 40px;;
+}
+
+.updated {
+    color: white;
+    display:inline;
+}
+
+.lastwali {
+    color: yellow;
+    line-height: 16px;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
